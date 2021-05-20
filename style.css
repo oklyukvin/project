@@ -1668,3 +1668,144 @@ text-transform: uppercase;
     text-align: center;
     line-height: 4;
 }
+.additional-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress-item {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 79px;
+}
+
+.discount-item {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 79px;
+}
+
+.additional-info-heading {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.additional-info-paragraph {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.country-select {
+    width: 286px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #b1b1b1;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.input-data {
+    width: 286px;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin-top: 20px;
+    /*color: #b1b1b1 !important;*/
+    font-size: 13px;
+    font-weight: 300;
+}
+
+input.input-data::placeholder {
+    color: #b1b1b1;
+    padding-left: 4px;
+}
+
+.quote-button {
+    width: 110px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 23px;
+}
+
+.checkout-item {
+    width: 261px;
+    height: 139px;
+    background-color: #eceaea;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.flex-box-checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sub-total {
+    color: #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.grand-total {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 14px;
+}
+
+.grand-total-span {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.proceed-to-checkout {
+    width: 273px;
+    height: 50px;
+    background-color: #f16d7f;
+    border: 1px solid #f16d7f;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.checkout-button {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.checkout-button-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.checkout-line {
+    height: 1px;
+    background-color: #e2e2e2;
+    border-color: white;
+    margin-bottom: 17px;
+    width: 275px;
+    position: absolute;
+    margin-top: 68px;
+}
