@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -111,9 +112,9 @@
                         <div class="total-text">total</div>
                         <div class="total-sum">$500.00</div>
                     </div>
-                    <button class="add-to-cart-1">
-                        <a class="add-button" href="#">
-                            <p class="submitButton">checkout</p>
+                    <button class="add-to-cart-1 add-pink">
+                        <a class="add-button" href="сheckout.html">
+                            <p class="submitButton add-pink">checkout</p>
                         </a>
                     </button>
                     <button class="add-to-cart-1 grey">
@@ -478,6 +479,303 @@
         </nav>
     </div>
 </section>
+<main class="main-content">
+<div class="container display">
+    <nav class="section-select">
+        <div class="filter-topic">
+            <div class="red-line"></div>
+            <div class="touch-bar">
+                <h3 class="filter-header-active">Category</h3>
+                <div class="menu-triangle">
+                    <img src="images/menu-triangle-open.png" alt="icon">
+                </div>
+            </div>
+        </div>
+        <div class="open-filter">
+            <a href="product.html">Accessories</a>
+            <a href="product.html">Bags</a>
+            <a href="product.html">Denim</a>
+            <a href="product.html">Hoodies & Sweatshirts</a>
+            <a href="product.html">Jackets & Coats</a>
+            <a href="product.html">Pants</a>
+            <a href="product.html">Polos</a>
+            <a href="product.html">Shirts</a>
+            <a href="product.html">Shoes</a>
+            <a href="product.html">Shorts</a>
+            <a href="product.html">Sweaters & Knits</a>
+            <a href="product.html">T-Shirts</a>
+            <a href="product.html">Tanks</a>
+        </div>
+        <div class="filter-topic">
+            <div class="red-line"></div>
+            <div class="touch-bar">
+                <h3 class="filter-header">Brand</h3>
+                <div class="menu-triangle">
+                    <img src="images/menu-triangle-close.png" alt="icon">
+                </div>
+            </div>
+        </div>
+        <div class="filter-topic">
+            <div class="red-line"></div>
+            <div class="touch-bar">
+                <h3 class="filter-header">Designer</h3>
+                <div class="menu-triangle">
+                    <img src="images/menu-triangle-close.png" alt="icon">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="content-display">
+        <div class="filters">
+            <div class="filter-set">
+                <div class="trending-now">
+                    <div class="filter-heading">Trending now</div>
+                    <div class="flex-box">
+                        <div class="category-name">Bohemia</div>
+                        <div class="grey-line"></div>
+                        <div class="category-name">Float</div>
+                        <div class="grey-line"></div>
+                        <div class="category-name">Lace</div>
+                        <div class="category-name">Floral</div>
+                        <div class="grey-line"></div>
+                        <div class="category-name">Lace</div>
+                        <div class="grey-line"></div>
+                        <div class="category-name">Bohemia</div>
+                    </div>
+                </div>
+                <div class="size">
+                    <div class="filter-heading">Size</div>
+                    <div class="flex-box">
+                        <div class="size-box">
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspXXS</label>
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspXS</label>
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspS</label>
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspM</label>
+                        </div>
+                        <div class="size-box">
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspXL</label>
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspXL</label>
+                            <label class="category-name"><input type="checkbox"/>&nbsp&nbspXXL</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="filter-heading">Price</div>
+                    <div class="flex-box">
+                        <div class="slider">
+                            <div class="slider-grey-part"></div>
+                            <div class="slider-pink-part"></div>
+                            <div class="pink-round-1"></div>
+                            <div class="pink-round-2"></div>
+                        </div>
+                        <div class="price-scale">
+                            <div class="category-name">$52</div>
+                            <div class="category-name">$400</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-sort">
+                <div class="filter-sort-by">
+                    <div class="sort-by">Sort By</div>
+                    <select class="select-view" name="Name" id="">
+                        <option value="Name">Name</option>
+                        <option value="Size">Size</option>
+                        <option value="Other">Name</option>
+                    </select>
+                </div>
+                <div class="filter-sort-by">
+                    <div class="sort-by">Show</div>
+                    <select class="select-view" name="Show" id="">
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="product-card-place">
+            <div class="product-cards">
+                <div class="container items">
+                    <div class="box-product-1">
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-12.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-14.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-16.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-10.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-15.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-11.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-6.jpg" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-13.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="single_page.html" class="product">
+                                <img class="product-img" src="images/product-9.png" alt="product photo">
+                                <div class="product-text-box">
+                                    <p class="product-text">Mango People T-shirt</p>
+                                    <p class="product-price">$52.00</p>
+                                </div>
+                            </a>
+                            <div class="box-add">
+                                <a class="add" href="#"><img class="add-img" src="images/cart_to_card.png" alt="cart-img">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="view-settings">
+                <nav class="paginator">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="#">
+                                <img src="images/inactive-pagination-arrow.png.png" alt="icon">
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6.....20</a></li>
+                        <li class="page-item">
+                            <a href="#">
+                                <img src="images/active-pagination-arrow.png" alt="icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="view-all">
+                    <a class="add-button" href="#">
+                        <p class="submitButton-strong">View All</p>
+                    </a>
+                </button>
+            </div>
+    </section>
+</div>
+</main>
+
+<div class="bannerblack-horizontal">
+    <div class="bb-section">
+        <div class="auto">
+            <img src="images/icon-auto.png">
+        </div>
+        <div class="bb-text">
+            <h3>Free Delivery </h3>
+            <p class="bb-p">Worldwide delivery on all.Authorit
+                tiveli marph next-generation innov
+                tion with extensive models.</p>
+        </div>
+    </div>
+    <div class="bb-section">
+        <div class="discount">
+            <img src="images/icon-sale.png">
+        </div>
+        <div class="bb-text">
+            <h3>Sales &amp; Discounts</h3>
+            <p class="bb-p">Worldwide delivery on all.Authorit
+                tiveli marph next-generation innov
+                tion with extensive models.</p>
+        </div>
+    </div>
+    <div class="bb-section">
+        <div class="quality">
+            <img src="images/icon-crown.png">
+        </div>
+        <div class="bb-text">
+            <h3>Quality Assurance</h3>
+            <p class="bb-p">Worldwide delivery on all.Authorit
+                tiveli marph next-generation innov
+                tion with extensive models.</p>
+        </div>
+    </div>
+</div>
 <div class="comunity">
     <img src="images/footerbackground.jpg" alt="com background" style="opacity:0.6;filter:alpha(opacity=60)" width="100%">
     <div class="comunity-conteiner">
