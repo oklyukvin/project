@@ -476,27 +476,53 @@
     </div>
 </section>
 <section class="container profile">
-    <div class="accordion">
-        <div class="accordion-section">
-            <label for="s1">01. Shipping Address</label>
-            <input type="radio" name="accordion" id="s1" class="accordion">
-            <div class="dropdown-menu">
-                <div class="checkout-options"></div>
-                <div class="login-space">
-                    <h3>Already Registed?</h3>
-                    <p>Please log ub below</p>
-                    <h3>Email address <span>*</span> </h3>
-                    <input type="email" name="email affress">
-                    <h3>Password <span>*</span> </h3>
-                    <input type="text" name="password">
-                    <p> <sup>*</sup> Required Fileds</p>
+    <div class="shipping-address">
+        <h3 class="shipping-header">01. Shipping Address</h3>
+        <div class="dropdown-menu">
+            <div class="checkout-options">
+                <h3 class="font-700">Check as a guest or register</h3>
+                <p class="font-400">Register with us for future convenience</p>
+                <div class="checkbox-space">
+                    <label><input class="font-700" type="radio" name="Checkout as guest"/>&nbsp;&nbsp;&nbsp;&nbsp;Checkout as guest</label>
+                    <label><input class="font-700 input-2" type="radio" checked name="registed"/>&nbsp;&nbsp;&nbsp;&nbsp;Registed</label>
+                </div>
+                <h3 class="font-700">register and save time!</h3>
+                <p class="font-400">Register with us for future convenience</p>
+                <p class="font-400 retreat">&#187;&nbsp;Fast and easy checkout</p>
+                <p class="font-400">&#187;&nbsp;Easy access to your order history and status</p>
+                <div class="login-button">
+                    <button class="login-button grey">
+                        <a class="add-button" href="shopping-cart.html">
+                            <p class="submitButton grey-2">continue</p>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="login-space">
+                <h3 class="font-700">Already Registed?</h3>
+                <p class="font-400">Please log ub below</p>
+                <div class="input-space">
+                    <h3 class="input-header header-margin">Email address <span class="input-span">&nbsp;*</span></h3>
+                    <input class="input-style" type="email" name="email affress">
+                    <h3 class="input-header">Password <span class="input-span">&nbsp;*</span></h3>
+                    <input class="input-style" type="text" name="password">
+                    <p class="required-fileds"> <sup>*</sup> Required Fileds</p>
+                </div>
+                <div class="login-forgot-space">
                     <div class="login-button">
-                        <buttton>Log in</buttton>
-                        <p>Forgot Password?</p>
+                        <button class="login-button grey">
+                            <a class="add-button" href="shopping-cart.html">
+                                <p class="submitButton grey-2">log in</p>
+                            </a>
+                        </button>
                     </div>
+                    <div class="forgot-password">Forgot Password?</div>
                 </div>
             </div>
         </div>
+
+    </div>
+    <div class="accordion">
         <div class="accordion-section">
             <label for="s2">02. Billing Information</label>
             <input type="radio" name="accordion" id="s2" class="accordion">
